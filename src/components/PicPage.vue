@@ -6,7 +6,7 @@
       </div>
       <div v-else class="images-container">
         <div v-for="image in allImages" :key="image.id">
-          <img v-else :src="image.link" alt="image" class="img-column" >
+          <img :src="image.link" alt="image" class="img-column" >
         </div>
       </div>
     </div>

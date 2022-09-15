@@ -7,6 +7,8 @@ import qs from 'qs'
 import axios from 'axios'
 
 export default {
+  
+  //Log in to Imgur through OAuth 2 url
   login() {
     const queryString = {
       client_id: CLIENT_ID,
